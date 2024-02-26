@@ -1,0 +1,38 @@
+.imageSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userAvatar {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    display: block;
+}
+.userFullName {
+    margin-top: var(--mantine-spacing-md);
+    font-size: var(--mantine-font-size-lg);
+    font-weight: 500;
+    text-align: center;
+}
+.groupGap {
+    gap: 5px;
+    margin-top: 5px;
+    flex-wrap: nowrap;
+}
+
+.anchorEl {
+    text-decoration: none;
+    color: var(--mantine-color-dimmed);
+}
+.anchorEl:hover {
+    text-decoration: underline;
+    color: var(--mantine-color-dimmed);
+}
+
+.buttonGroup {
+    gap: 5px;
+    margin-top: 15px;
+    flex-wrap: nowrap;
+}
